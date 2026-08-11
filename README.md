@@ -80,7 +80,7 @@ package versions.
 
 | Script | Purpose | Dependency |
 |---|---|---|
-| `01_cfps_analysis.R` | Main method comparison and post-selection OLS | Private data |
+| `01_cfps_analysis.R` | CFPS dataset analysis | Private data |
 | `02_stage_specific_analysis.R` | Stage-specific Stab-Knock analysis | Private data |
 | `03_sensitivity_analysis.R` | IPW, placebo, and E-value sensitivity checks | Output of script 01 |
 | `04_mediation_analysis.R` | Standardized-covariate mediation analysis | Private data |

@@ -1,0 +1,20 @@
+# Private data (keep only the data documentation)
+data/*
+!data/README.md
+
+# Generated analysis outputs
+results/*
+!results/.gitkeep
+
+# R session and editor files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

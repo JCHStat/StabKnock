@@ -1,0 +1,17 @@
+Package: stabknockcfpsanalysis
+Type: Project
+Title: Stab-Knock Analysis of CFPS Data
+Version: 0.1.0
+Authors@R: person("The", "Authors", role = c("aut", "cre"))
+Description: Reproducible R code for Stab-Knock variable selection, empirical
+    CFPS analyses, robustness checks, mediation analyses, and simulations.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    ggplot2,
+    glmnet,
+    hdi,
+    knockoff,
+    RColorBrewer,
+    readxl,
+    Rfast
